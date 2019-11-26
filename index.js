@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 
 app.get('/hola',(req,res)=>{
-	res.send({message: "hola mundo"})
+	res.send({message: "hola mundo 2"})
 })
 
 app.get('/api/product',(req, res) =>{
